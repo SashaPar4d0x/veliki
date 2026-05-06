@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body class="flex flex-col min-h-screen font-nuckle bg-white">
+    <header>
+        <div class="grid grid-cols-[auto_1fr_auto] container mx-auto px-4 py-4 gap-8 justify-between items-center">
+            <div>
+                <a href=".">
+                    <img src="img/logo.svg" alt="" class="">
+                </a>
+            </div>
+            <nav>
+                <ul class="flex items-center gap-4 text-[12px] text-black">
+                    <li class="cursor-pointer hover:text-gray-600"><a href="#" class="flex gap-1">ELECTRIC<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                    <li class="cursor-pointer hover:text-gray-600"><a href="#" class="flex gap-1">CITY<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                    <li class="cursor-pointer hover:text-gray-600"><a href="#" class="flex gap-1">KIDS<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                    <li class="cursor-pointer hover:text-gray-600"><a href="#" class="flex gap-1">ACCESORIES</a></li>
+                    <li class="cursor-pointer hover:text-gray-600"><a href="#" class="flex gap-1">STORE</a></li>
+                    <li class="cursor-pointer hover:text-gray-600"><a href="#" class="flex gap-1">LEASING<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul class="flex items-center gap-10 text-[12px] text-black">
+                    <li class="cursor-pointer hover:text-gray-600"><a href="#" class="flex">EN<img src="img/UK-SVG.svg" alt=""></a></li>
+                    <li class="cursor-pointer hover:text-gray-600"><a href="#" class="flex"><i class="fa fa-user-o" aria-hidden="true"></i></a></li>
+                    <li class="cursor-pointer hover:text-gray-600"><a href="#" class="flex"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="grow">
+        <section class="grid grid-cols-[3fr_2fr] items-center justify-between container mx-auto">
+            <div class="relative bg-white max-h-195">
+                <img src="img/bike.png" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center"> 
+                    <div class="flex justify-between w-full px-4 text-5xl"> 
+                        <i class="fa fa-angle-left text-gray-800 hover:text-gray-600 cursor-pointer" aria-hidden="true"></i>
+                        <i class="fa fa-angle-right text-gray-800 hover:text-gray-600 cursor-pointer" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="flex gap-2 absolute -bottom-10 justify-center items-end w-full">
+                    <div class="w-4 h-4 bg-gray-600 hover:bg-gray-500 rounded-full hover:cursor-pointer transition-all"></div>
+                    <div class="w-4 h-4 bg-gray-400 hover:bg-gray-500 rounded-full hover:cursor-pointer transition-all"></div>
+                </div>
+            </div>
+            <article class="flex flex-col gap-8 p-10 pt-18">
+
+                <div class="flex justify-between">
+                    <h1 class="text-[25px] font-medium relative">Electric Ivy<sup class="text-[12px] -top-4">Two</sup></h1>
+                    <span class="text-[30px] font-normal">€ 3.299</span>
+                </div>
+
+                <div class="grid grid-cols-4 gap-6">
+                    <div class="group flex flex-col gap-4 hover:cursor-pointer">
+                        <div class="h-[70px] overflow-hidden rounded-xl group-hover:ring-2 transition-all">
+                            <img src="img/bike_var1.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-[12px] font-medium relative">Electric Ace<sup class="text-[8px]">Two</sup></h4>
+                    </div>
+                    <div class="group flex flex-col gap-4 hover:cursor-pointer">
+                        <div class="h-[70px] overflow-hidden rounded-xl ring-2 transition-all">
+                            <img src="img/bike_var1.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-[12px] font-medium relative">Electric Ace<sup class="text-[8px]">Two</sup></h4>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-2">
+                    <h3>Ivy Two Matte Black</h3>
+                    <ul class="flex gap-4">
+                        <li class="w-8 h-8 bg-gray-800 border-white border-10 rounded-full ring-2 hover:cursor-pointer transition-all"></li>
+                        <li class="w-8 h-8 bg-gray-600 border-white border-8 rounded-full hover:ring-2 hover:cursor-pointer transition-all"></li>
+                        <li class="w-8 h-8 bg-orange-300 border-white border-8 rounded-full hover:ring-2 hover:cursor-pointer transition-all"></li>
+                        <div class="relative w-8 h-8 rounded-full hover:ring-2 hover:cursor-pointer transition-all">
+                            <input type="color" value="#ff0000" class="absolute w-full h-full inset-0 opacity-0 z-10 hover:cursor-pointer">
+                            <div class="w-full h-full bg-red-400 border-white border-8 rounded-full"></div>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col gap-8 pt-8">
+                    <div class="flex items-center gap-1">
+                        <span class="text-[12px] underline">3 interest-free payments with</span>
+                        <img src="img/klarna.svg" alt="">
+                    </div>
+
+                    <div>
+                        <p class="font-normal text-[12px] text-gray-600">The Ivy Two is a step-through frame electric bike combining design, advanced technology, and safety features. Rider height: between 164 and 184cm.</p>
+                    </div>
+
+                    <a href="#" class="w-fit py-2 px-4 font-normal text-[12px]">Scroll to Specifications <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                </div>
+
+                <button class="py-4 text-white bg-black rounded-full hover:cursor-pointer hover:bg-neutral-800">
+                    <span class="font-medium text-[12px]">Customize now</span>
+                </button>
+
+                <div class="flex flex-col gap-2 pt-4">
+                    <p class="font-medium text-[14px]">Shipping to the Netherlands, Belgium & Germany only.</p>
+                    <span class="font-normal text-[14px] text-gray-800">Delivery time: 5-15 business days</span>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
